@@ -71,7 +71,7 @@ CheckPort(){
 
 CheckDomain(){
     $systemPackage install -y wget curl unzip
-    EchoB "输入已解析到VPS的域名，请不要带https://或http://，例如可以输入：" "atrandys.com" 
+    EchoB "输入已解析到VPS的域名，请不要带https://或http://，例如可以输入：" "oaoy.net" 
     EchoB "请输入域名:"
     read yourDomain
  #   realAddr=`ping ${yourDomain} -c 1 | sed '1{s/[^(]*(//;s/).*//;q}'`
@@ -328,8 +328,7 @@ function StartMenu(){
     EchoG " ====================================================="
     EchoG " 描述：" "xray + tcp + xtls一键安装脚本"
     EchoG " 系统：" "支持centos7/debian9+/ubuntu16.04+     "
-    EchoG " 作者：" "atrandys"
-    EchoG " 博客：" "www.atrandys.com"
+    EchoG " 博客：" "www.oaoy.net"
     EchoG " ====================================================="
     echo
     EchoG " 1. 安装 xray + tcp + xtls"
